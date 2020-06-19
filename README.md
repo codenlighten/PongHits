@@ -1,6 +1,6 @@
 # Pong single player game (in Vue framework)
 
-![Screen shot of app, as of now...](./pongsite.png)
+![Screen shot of app, as of now...](./pongsiteimg.png)
 
 
 
