@@ -1,8 +1,8 @@
 # Pong single player game (in Vue framework)
 
-![Screen shot of app, as of now...](./pongsiteimg.png =250x250)
+![Screen shot of app, as of now...]
 
-<img src="./pongsiteimg.png" width="200" height="400" />
+<img src="./pongsiteimg.png" width="225" height="225" />
 
 ## Project setup
 ```
