@@ -2,7 +2,7 @@
 
 ![Screen shot of app, as of now...]
 
-<img src="./pongsiteimg.png" width="450" height="450" />
+<img src="./pongsiteimg.png" width="550" height="450" />
 
 ## Project setup
 ```
