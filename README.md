@@ -1,6 +1,6 @@
 # Pong single player game (in Vue framework)
 
-#### at the moment it looks like this:
+#### At the moment it looks like this:
 
 <img src="./pongsiteimg.png" width="550" height="450" />
 
