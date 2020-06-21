@@ -1,6 +1,8 @@
 <template>
   <div class="canvas-wrapper">
-    <canvas ref="my-canvas" @click="move"></canvas>
+
+    <canvas ref="my-canvas" @click="move"> </canvas>
+    <div @click="alert()"> </div>
     <div class="play-buttons">
       <button @mousedown="barX -= 45">LEFT</button>
       <button @mousedown="barX += 45">RIGHT</button>
@@ -45,11 +47,22 @@ export default {
   },
 
   mounted() {
-    console.log("hello");
     this.provider.context = this.$refs["my-canvas"].getContext("2d");
     this.provider.canvas = this.$refs["my-canvas"];
     this.provider.canvas.width = "750";
     this.provider.canvas.height = "500";
+
+    //keypresses, problem with focus so use this:
+    window.addEventListener('keydown', (e) =>{
+    if(e.keyCode === 37){
+      console.log("left");
+      this.barX -= 45;
+    }else if (e.keyCode === 39){
+      console.log("right");
+      this.barX += 45;
+    }
+    });
+
 
     this.drawBar();
     //this.moveBall();
@@ -63,16 +76,6 @@ export default {
       ctx.fillRect(this.barX, this.barY, 100, 15);
       ctx.fill();
       //ctx.fillStyle = "blue";
-    },
-
-    //not functional rn
-    moveBar: function(e) {
-      console.log("keypress");
-      if (e.keyCode === 39) {
-        console.log("arrowRight");
-      } else if (e.keyCode === 37) {
-        console.log("arrowLeft");
-      }
     },
 
     drawBall: function() {
@@ -100,11 +103,10 @@ export default {
     },
 
     move: function() {
-      if(!this.moving){
+      if (!this.moving) {
         this.moving = true;
         this.moveBall();
-      }
-      else{
+      } else {
         return;
       }
     },
@@ -173,7 +175,7 @@ export default {
 canvas {
   border: 3px solid black;
   border-radius: 5px;
-  background-color:darkgray;
+  background-color: darkgray;
 }
 
 .canvas-wrapper {
@@ -193,11 +195,10 @@ canvas {
 
 .play-buttons > button {
   text-align: center;
-  padding:40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20pt;
   border: none;
   background-color: darkgray;
 }
-
 </style>
