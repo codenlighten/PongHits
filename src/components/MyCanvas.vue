@@ -4,8 +4,8 @@
     <canvas ref="my-canvas" @click="move"> </canvas>
     <div @click="alert()"> </div>
     <div class="play-buttons">
-      <button @mousedown="barX -= 45">LEFT</button>
-      <button @mousedown="barX += 45">RIGHT</button>
+      <!-- <button @mousedown="barX -= 45">LEFT</button>
+      <button @mousedown="barX += 45">RIGHT</button> -->
     </div>
   </div>
 </template>
@@ -50,16 +50,19 @@ export default {
     this.provider.context = this.$refs["my-canvas"].getContext("2d");
     this.provider.canvas = this.$refs["my-canvas"];
     this.provider.canvas.width = "750";
+    let width = this.provider.canvas.width;
     this.provider.canvas.height = "500";
 
     //keypresses, problem with focus so use this:
     window.addEventListener('keydown', (e) =>{
-    if(e.keyCode === 37){
+    if(e.keyCode === 37 && this.barX > 0){
       console.log("left");
-      this.barX -= 45;
-    }else if (e.keyCode === 39){
+      this.barX -= 20;
+    }else if (e.keyCode === 39 && this.barX < width-100){
+      console.log(this.barX)
+      console.log(width);
       console.log("right");
-      this.barX += 45;
+      this.barX += 20;
     }
     });
 
@@ -75,7 +78,7 @@ export default {
       ctx.beginPath();
       ctx.fillRect(this.barX, this.barY, 100, 15);
       ctx.fill();
-      //ctx.fillStyle = "blue";
+      // ctx.fillStyle = "blue";
     },
 
     drawBall: function() {
