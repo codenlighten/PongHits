@@ -2,7 +2,6 @@
   <div class="canvas-wrapper">
 
     <canvas ref="my-canvas" @click="move"> </canvas>
-    <div @click="alert()"> </div>
     <div class="play-buttons">
       <!-- <button @mousedown="barX -= 45">LEFT</button>
       <button @mousedown="barX += 45">RIGHT</button> -->
