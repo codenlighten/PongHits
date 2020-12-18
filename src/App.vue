@@ -2,7 +2,7 @@
   <div id="app">
     <div class="heading">
       <h1>PONG</h1>
-      <h4 id="score" v-if="score > 0">score: {{ score }}</h4>
+      <h4 id="score" v-if="score > 0"> score: {{ score }}</h4>
       <h4 v-else>single-player game</h4>
     </div>
 
@@ -15,13 +15,10 @@
       @bar-collision="collision"
     >
     </my-canvas>
-    <!-- <h1 v-if="showDeath">{{ hasDied }}</h1> -->
-    <!-- <button @click="setToMove()">Hello</button> -->
   </div>
 </template>
 
 <script>
-//import Ball from "./components/Ball.vue";
 import MyCanvas from "./components/MyCanvas.vue";
 
 export default {
@@ -72,17 +69,6 @@ export default {
 </script>
 
 <style>
-/*
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-*/
 
 h1 {
   text-align: center;
@@ -95,22 +81,15 @@ h1 {
 
 h4 {
   text-align: center;
-  /* font-style: italic; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
 }
-/*
-.heading {
-  border: 1px solid black;
-}
-*/
 
 html {
   background-color: rgb(166, 228, 166);
 }
 
 #score {
-  /* float: right; */
   padding: 0px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
