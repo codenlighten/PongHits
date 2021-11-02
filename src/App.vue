@@ -69,7 +69,7 @@ export default {
 <style>
 
 .heading{
-width:30vw;
+width:auto;
 margin: auto;
   font-family: 'Courier New';
 
@@ -97,6 +97,7 @@ html {
   background-size: cover;
   font-size: 30pt;
   font-family: 'Courier New';
+  text-align: center;
 }
 
 #score {
