@@ -72,6 +72,7 @@ export default {
 
 <style>
 #appwrap{
+width: 100%;
 text-align:center;
 margin: 0 auto;}
 #app {
