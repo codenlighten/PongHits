@@ -76,9 +76,9 @@ export default {
 text-align: center;
 }
 .heading{
-width:auto;
+width:50vw;
 margin: auto;
-  font-family: 'Courier New';
+font-family: 'Courier New';
 
 text-align: center;
 }
