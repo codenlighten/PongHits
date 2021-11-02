@@ -1,5 +1,5 @@
 <template>
-  <div id="app-wrap">
+
 
   <div id="app">
     <div class="heading">
@@ -16,7 +16,7 @@
     >
     </my-canvas>
   </div>
-      </div>
+
 
 </template>
 
@@ -71,10 +71,7 @@ export default {
 </script>
 
 <style>
-#appwrap{
-width: 100%;
-text-align:center;
-margin: 0 auto;}
+
 #app {
 text-align: center;
 }
