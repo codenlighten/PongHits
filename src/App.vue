@@ -100,7 +100,7 @@ h4 {
 }
 
 html {
-  background-image: url("../yinyang.gif");
+  background-image: url("../yingyang.gif");
   background-size: cover;
   font-size: 30pt;
   font-family: 'Courier New';
