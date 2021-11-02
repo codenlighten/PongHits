@@ -131,7 +131,7 @@ export default {
         this.posx <= this.barX + 100 &&
         this.posx >= this.barX
       ) {
-        this.vyBall = -this.vyBall;
+        this.vyBall = -this.vyBall + 5;
         this.$emit("bar-collision");
       }
 
