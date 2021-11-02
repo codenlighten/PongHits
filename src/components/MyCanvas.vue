@@ -118,7 +118,7 @@ export default {
 
         this.moving = false;
         this.$emit("ball-death");
-
+        this.vyBall = 5;
         this.posy = 20;
         this.barX = 340;
         ctx.clearRect(0, 0, width, height);
