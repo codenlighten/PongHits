@@ -29,7 +29,7 @@ export default {
       posx: this.startingX,
       posy: 0,
       barX: 340,
-      barY: 450,
+      barY: 470,
       vxBall: 2,
       vyBall: 5,
       colorBall: "black",
@@ -131,7 +131,7 @@ export default {
         this.posx <= this.barX + 100 &&
         this.posx >= this.barX
       ) {
-        this.vyBall = -this.vyBall * 1.5;
+        this.vyBall = -this.vyBall * 1.05;
         this.$emit("bar-collision");
       }
 
