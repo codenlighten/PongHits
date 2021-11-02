@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="heading">
-      <h4 v-if="showDeath">{{ hasDied }}</h4>
-      <h4 id="score" v-else-if="score > 0"> score: {{ score }}</h4>
-      <h4 v-else>single-player game</h4>
+      <h2 class="death" v-if="showDeath">{{ hasDied }}</h2>
+      <h2 id="score" v-else-if="score > 0"> score: {{ score }}</h2>
+      <h2 v-else>single-player game</h2>
     </div>
 
    
