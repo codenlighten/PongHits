@@ -85,7 +85,8 @@ h4 {
 }
 
 html {
-  background-color: black;
+  background-image: url("../swirly.gif");
+  background-size: cover;
   font-size: 30pt;
 }
 
