@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="heading">
-      <h3>PONG</h3>
+      
       <h4 id="score" v-if="score > 0"> score: {{ score }}</h4>
       <h4 v-else>single-player game</h4>
     </div>
