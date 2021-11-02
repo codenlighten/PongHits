@@ -88,7 +88,7 @@ h1 {
 
 h4 {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Courier New';
   color: white;
   font-size: 30pt;
 }
