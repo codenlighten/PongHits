@@ -90,7 +90,6 @@ h4 {
   font-family: 'Courier New';
   color: white;
   font-size: 30pt;
-background-color: black;
 }
 
 html {
@@ -105,6 +104,7 @@ html {
   font-family: 'Courier New';
   color: white;
   font-size: 30pt;
+background-color: black;
 }
 
 .death {
@@ -112,6 +112,7 @@ html {
   font-family: 'Courier New';
   color: red;
     font-size: 30pt;
-
+background-color: black;
 }
+#title{background-color: black;}
 </style>
