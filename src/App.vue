@@ -70,6 +70,7 @@ export default {
 
 .heading{
 background-color: gray;
+width:30vw;
 }
 
 h1 {
