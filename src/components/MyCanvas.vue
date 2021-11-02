@@ -157,7 +157,7 @@ canvas {
 }
 
 .canvas-wrapper {
-  padding-top: 15px;
+  padding-top: 10px;
   margin: 0px auto;
   text-align: center;
 }
