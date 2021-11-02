@@ -81,21 +81,24 @@ h4 {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
+  font-size: 50pt;
 }
 
 html {
   background-color: black;
+  font-size: 50pt;
 }
 
 #score {
-  padding: 0px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 50pt;
 }
 
 .death {
-  text-align: center;
-  margin: 0 auto;
+   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: red;
 }
 </style>
