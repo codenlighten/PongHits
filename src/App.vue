@@ -3,7 +3,7 @@
     <div class="heading">
       <h4 class="death" v-if="showDeath">{{ hasDied }}</h4>
       <h4 id="score" v-else-if="score > 0"> score: {{ score }}</h4>
-      <h4 v-else>single-player game</h4>
+      <h4 v-else>PONG</h4>
     </div>
 
    
