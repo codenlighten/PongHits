@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="heading">
-      <h3 v-if="showDeath">{{ hasDied }}</h3>
+      <h4 v-if="showDeath">{{ hasDied }}</h4>
       <h4 id="score" v-else-if="score > 0"> score: {{ score }}</h4>
       <h4 v-else>single-player game</h4>
     </div>
