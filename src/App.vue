@@ -72,12 +72,14 @@ export default {
 background-color: black;
 width:30vw;
 margin: auto;
+  font-family: 'Courier New';
+
 text-align: center;
 }
 
 h1 {
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Courier New';
   font-stretch: narrower;
   font-size: 50pt;
   color: rgb(2, 57, 2);
@@ -95,18 +97,19 @@ html {
   background-image: url("../swirly.gif");
   background-size: cover;
   font-size: 30pt;
+  font-family: 'Courier New';
 }
 
 #score {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Courier New';
   color: white;
   font-size: 30pt;
 }
 
 .death {
    text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Courier New';
   color: red;
     font-size: 30pt;
 
