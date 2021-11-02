@@ -29,7 +29,7 @@ export default {
       posx: this.startingX,
       posy: 0,
       barX: 340,
-      barY: 490,
+      barY: 510,
       vxBall: 2,
       vyBall: 5,
       colorBall: "black",
@@ -52,12 +52,12 @@ export default {
     window.addEventListener('keydown', (e) =>{
     if(e.keyCode === 37 && this.barX > 0){
       console.log("left");
-      this.barX -= 20;
+      this.barX -= 40;
     }else if (e.keyCode === 39 && this.barX < width-100){
       console.log(this.barX)
       console.log(width);
       console.log("right");
-      this.barX += 20;
+      this.barX += 40;
     }
     });
 
