@@ -151,6 +151,8 @@ export default {
 
 <style scope>
 canvas {
+  margin: 0px auto;
+
   border: 3px solid black;
   border-radius: 5px;
   background-color: whitesmoke;
