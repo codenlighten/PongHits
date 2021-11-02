@@ -69,7 +69,7 @@ export default {
 <style>
 
 .heading{
-background-color: gray;
+background-color: black;
 width:30vw;
 margin: auto;
 text-align: center;
