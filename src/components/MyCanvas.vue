@@ -29,7 +29,7 @@ export default {
       posx: this.startingX,
       posy: 0,
       barX: 340,
-      barY: 510,
+      barY: 450,
       vxBall: 2,
       vyBall: 5,
       colorBall: "black",
