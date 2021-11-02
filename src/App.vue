@@ -68,6 +68,10 @@ export default {
 
 <style>
 
+.heading{
+background-color: gray;
+}
+
 h1 {
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
