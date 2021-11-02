@@ -71,6 +71,8 @@ export default {
 .heading{
 background-color: gray;
 width:30vw;
+margin: auto;
+text-align: center;
 }
 
 h1 {
