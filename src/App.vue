@@ -3,7 +3,7 @@
     <div class="heading">
       <h4 class="death" v-if="showDeath">{{ hasDied }}</h4>
       <h4 id="score" v-else-if="score > 0"> score: {{ score }}</h4>
-      <h4 v-else>PongHits</h4>
+      <h4 class ="title" v-else>PongHits</h4>
     </div>
 
    
@@ -69,7 +69,6 @@ export default {
 <style>
 
 .heading{
-background-color: black;
 width:30vw;
 margin: auto;
   font-family: 'Courier New';
@@ -91,6 +90,7 @@ h4 {
   font-family: 'Courier New';
   color: white;
   font-size: 30pt;
+background-color: black;
 }
 
 html {
