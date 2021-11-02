@@ -102,6 +102,7 @@ h4 {
 html {
   background-image: url("../swirly.gif");
   background-size: cover;
+  opacity: 0.75;
   font-size: 30pt;
   font-family: 'Courier New';
   text-align: center;
