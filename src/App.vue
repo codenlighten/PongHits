@@ -39,7 +39,7 @@ export default {
 
   computed: {
     hasDied: function() {
-      return "Your score was " + this.score + ". Play again.";
+      return "Your score was " + this.score + ". Take another Hit.";
     },
   },
 
