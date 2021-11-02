@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="heading">
-      <h2 class="death" v-if="showDeath">{{ hasDied }}</h2>
-      <h2 id="score" v-else-if="score > 0"> score: {{ score }}</h2>
-      <h2 v-else>single-player game</h2>
+      <h4 class="death" v-if="showDeath">{{ hasDied }}</h4>
+      <h4 id="score" v-else-if="score > 0"> score: {{ score }}</h4>
+      <h4 v-else>single-player game</h4>
     </div>
 
    
@@ -80,11 +80,11 @@ h1 {
 h4 {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
+  color: white;
 }
 
 html {
-  background-color: rgb(166, 228, 166);
+  background-color: black;
 }
 
 #score {
