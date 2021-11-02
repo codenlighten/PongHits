@@ -1,4 +1,6 @@
 <template>
+  <div id="app-wrap">
+
   <div id="app">
     <div class="heading">
       <h4 class="death" v-if="showDeath">{{ hasDied }}</h4>
@@ -14,6 +16,8 @@
     >
     </my-canvas>
   </div>
+      </div>
+
 </template>
 
 <script>
@@ -67,6 +71,9 @@ export default {
 </script>
 
 <style>
+#appwrap{
+text-align:center;
+margin: 0 auto;}
 #app {
 text-align: center;
 }
