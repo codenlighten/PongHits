@@ -67,7 +67,9 @@ export default {
 </script>
 
 <style>
-
+#app {
+text-align: center;
+}
 .heading{
 width:auto;
 margin: auto;
